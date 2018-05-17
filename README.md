@@ -2,6 +2,20 @@
 
 > A Vue.js project
 
+## Create files for API KEY needed for GIPHY:
+
+``` bash
+config/api.dev.js
+config/api.prod.js
+```
+Containing:
+```javascript
+module.exports = {
+  GIPHY_API_KEY: '"12345"'
+}
+```
+
+
 ## Build Setup
 
 ``` bash

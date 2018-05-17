@@ -1,4 +1,6 @@
 .DS_Store
+config/api.prod.js
+config/api.dev.js
 node_modules/
 dist/
 npm-debug.log*

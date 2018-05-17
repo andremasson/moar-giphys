@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div style="width: 248px; position: relative; top: 0px; left: 0px;">
-      <img :src="imagePath">
-    </div>
+    <img :src="imagePath">
   </div>
 </template>
 
@@ -21,3 +19,9 @@ export default {
   }
 }
 </script>
+
+<style>
+img {
+  width: 100%;
+}
+</style>
